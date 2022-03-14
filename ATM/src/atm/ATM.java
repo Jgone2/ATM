@@ -168,32 +168,4 @@ public class ATM {
 
    }
 
-   /*
-    * System.out.println(id.getName() + "님의 주민번호는 " + id.getIdNum() + "이고 주소는 " +
-    * id.getAddress() + "입니다."); System.out.println(customer.getIdCard().getName()
-    * + "님의 주민번호는 " + customer.getIdCard().getIdNum() + "이고 주소는 " +
-    * customer.getIdCard().getAddress() + "입니다.");
-    * System.out.println(customer.getAcountNum() + "계좌의 잔액은 " + customer.getMoney()
-    * + "원 입니다."); System.out.println("======================================");
-    * System.out.println(customer.getIdCard().getName());
-    * System.out.println(customer.getIdCard().getIdNum());
-    * System.out.println(customer.getIdCard().getAddress());
-    * System.out.println(customer.getAcountNum());
-    * System.out.println(customer.getMoney()); System.out.println(idCardSeo);
-    * 
-    * Customer customerSeo = new Customer(1111111111, 40000, new IDCard("서재곤", 1,
-    * "대구광역시 달서구 상인동")); Customer customerJang = new Customer(1111111112, 60000,
-    * new IDCard("장모씨", 2, "서울특별시 송파구 가락동"));
-    * 
-    * long moneyS = customerSeo.getMoney(); System.out.println(moneyS + "원");
-    * System.out.println(customerSeo.getMoney() + "원"); System.out.println(new
-    * Customer(1111111111, 40000, new IDCard("서재곤", 1, "대구광역시 달서구 상인동")).getMoney()
-    * + "원"); //정보의 중복. new로 새로운 생성자를 가져옴. 같은 정보가 아님
-    * 
-    * customerSeo.showCustomerInfo();
-    * System.out.println("==========================================");
-    * customerJang.showCustomerInfo(); System.out.println(customerSeo);
-    * System.out.println(customerJang);
-    */
-
 }
